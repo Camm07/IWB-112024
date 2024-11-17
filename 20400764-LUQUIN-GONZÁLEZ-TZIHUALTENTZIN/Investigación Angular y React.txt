@@ -1,0 +1,70 @@
+ANGULAR
+
+Es un framework de ingeniería de software de código abierto mantenido por Google, que sirve para desarrollar aplicaciones web de estilo Single Page Application (SPA) y Progressive Web App (PWA). Sirve tanto para versiones móviles como de escritorio.
+Angular está escrito en TypeScript, un superconjunto de JavaScript que añade tipado estático.
+
+Características
+•	Uso de DOM(Document Object Model) regular: Angular hace uso de DOM regular, lo que permite una mejor organización conforme avanza el desarrollo web.
+•	Enlace de datos o Data Binding: Permite manipular elementos de una página web sin necesidad de programación compleja, sincronizando automáticamente datos entre la vista y el modelo.
+•	Compatibilidad móvil y de escritorio: Funciona para desarrollar aplicaciones web, móviles y de escritorio, ejecutándose en la mayoría de navegadores.
+•	Velocidad y rendimiento: Optimiza plantillas en código eficiente y mejora al SEO mediante la carga rápida y división automática del código.
+•	Enlace bidireccional de datos: Sincroniza automáticamente JavaScript y HTML, reduciendo errores y tiempos de desarrollo.
+
+Ventajas
+•	Alta calidad de la aplicación: Su complejidad asegura resultados sólidos y robustos, ideales para proyectos grandes.
+•	Desarrollo multiplataforma: Compatible con aplicaciones web progresivas, móviles nativas (con NativeScript) y de escritorio.
+•	Proceso de desarrollo rápido: Documentación clara, CLI eficiente y soporte de Google agilizan el desarrollo.
+•	Código legible y reutilizable: Estructuras consistentes (módulos, componentes, directivas) y soporte para arquitecturas MVVM/MVC facilitan la reutilizacón y mantenimiento del código.
+
+Desventajas
+•	Curva de aprendizaje alta: Debido a que angular es un framework robusto y completo, implica aprender conceptos avanzados, como módulos, inyección de dependencias, TypeScript, directivas.
+•	Mayor tamaño de la aplicación: Las aplicaciones en angular tienden a ser más pesadas en comparación con otras soluciones como React.
+•	Actualizaciones frecuentes: Angular recibe actualizaciones importantes con regularidad, y algunas de ellas pueden romper la compatibilidad con versiones anteriores, obligando a realizar ajustes en el código
+
+Versiones de Angular
+Major release: Introduce cambios significativos que requieren ajustes por parte del desarrollador.
+Minor release: Incluye características menores opcionales para mejorar la funcionalidad.
+Patch release: Correcciones de errores con bajo riesgo, sin necesidad de intervención del desarrollador.
+
+Casos de Uso de Angular
+•	Aplicaciones empresariales con muchas funcionalidades.
+•	Proyectos donde se requiere una solución completa sin depender de bibliotecas externas.
+
+
+REACT
+Es una librería para crear interfaces de usuarios con código abierto, es decir, que está a disposición de cualquier programador para que use sus recursos e incluso haga colaboraciones. Esta biblioteca fue lanzada en el año 2013, por los desarrolladores de Facebook, con base en el lenguaje JavaScript.
+
+¿Para qué sirve? 
+Para desarrollar páginas web de una manera gratuita y sencilla gracias a sus componentes reutilizables. Estos hacen posible usar un mismo elemento en varias partes del sitio o en otros sitios sin necesidad de volver a escribir todo el código. Como resultado, los programadores web ahorran gran cantidad de tiempo y trabajo.
+React cuenta con un óptimo desempeño que se encarga de actualizar y renderizar los cambios realizados de forma automática. Esta cualidad permite a los programadores desarrollar sus códigos sin mayores contratiempos en el modelo en objetos para la representación de documentos (DOM).
+
+Características
+•	Virtual DOM: React usa un DOM virtual para actualizar solo las partes necesarias de la interfaz.
+•	JSX: React utiliza una sintaxis especial llamada JSX, que combina JavaScript con HTML.
+•	Componentes Funcionales: Los componentes pueden ser clase o función.
+•	Unidirectional Data Flow: Los datos fluyen en una sola dirección, lo que hace que el comportamiento de la aplicación sea más predecible.
+•	Ecosistema Modular: React requiere bibliotecas externas como React Router para el manejo de rutas y Redux para la gestión del estado global.
+
+Ventajas
+•	Ligero y flexible: Permite escoger las herramientas que se necesitan.
+•	Alto rendimiento: El virtual DOM optimiza las actualizaciones
+•	Curva de aprendizaje baja: Más fácil para principiantes comparado con Angular.
+•	Soporte para móviles: Con React Native, puedes desarrollar aplicaciones móviles nativas.
+
+Desventajas
+•	No es un framework completo: Requiere de herramientas adicionales para manejar funcionalidades comunes como routing.
+•	Mayor esfuerzo inicial: Necesitas configurar las bibliotecas externas
+•	Complejidad en proyectos grandes: Sin una arquitectura definida, los proyectos pueden desorganizarse.
+
+Casos de Uso de React
+•	Aplicaciones interactivas como redes sociales.
+•	Aplicaciones móviles (React Native).
+•	Proyectos ligeros que requieren flexibilidad.
+
+
+ANGULAR vs REACT
+Como conclusión de la información anterior, podemos decir que el lenguaje principal de Angular es TypeScript y el de React JavaScript. La curva de aprendizaje de Angular es más alta debido a que es necesario aprenderse los conceptos que éste utiliza, y en React es mucho más sencillo aprenderlo, 
+sobre todo para principiantes. Angular utiliza Real DOM y React Virtual DOM. Angular es un framework completo, que incluye herramientas para routing, validaciones y manejo de datos, mientras tanto, React es una biblioteca, que se centra únicamente en la capa de la vista, y requiere de complementos
+para manejar otras funcionalidades como el routing o la gestión del estado.
+
+-Tzihualtentzin Luquin González 
