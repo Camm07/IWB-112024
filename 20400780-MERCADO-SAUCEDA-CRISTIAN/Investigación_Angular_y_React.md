@@ -1,4 +1,4 @@
-# Investigación Corta: React y Angular
+# Investigación: React y Angular
 
 ## Introducción
 React y Angular son dos de las bibliotecas y frameworks más populares para el desarrollo de aplicaciones web modernas. Aunque ambos se utilizan para crear interfaces de usuario dinámicas, tienen diferencias significativas en sus enfoques, arquitecturas y casos de uso.
@@ -34,5 +34,5 @@ Angular es un framework completo para aplicaciones web desarrollado y mantenido 
 - Proyectos donde la escalabilidad y la mantenibilidad son esenciales.
 
 
-## 4. Conclusión
+## Conclusión
 Como conlusión puedo decir que React y Angular son una de las mejores herramientas para el desarrollo de aplicaciones web, el uso de cada una dependerá de las necesidades especificas de un proyecto. React es ideal para proyectos que requieren flexibilidad y alto rendimiento, mientras que Angular es más adecuado para aplicaciones empresariales y complejas con necesidades avanzadas de estructuración y mantenimiento.
