@@ -1,0 +1,97 @@
+INSTITUTO TECNOLOGICO DE TEPIC
+MATERIA: INTERFACES WEB
+MAESTRO: NAVA HERNÁNDEZ IRVING YAIR
+ALUMNO: CHRISTIAN ISABEL LÓPEZ CANTABRANA
+NO. CONTROL: 19400606
+FECHA 18 DE NOVIEMBRE DEL 2024
+INVESTIGACION ANGULAR Y REACT
+- Introduccion
+Angular y React son dos de las herramientas más utilizadas en el desarrollo de aplicaciones web modernas, cada una con características y enfoques únicos. Angular, desarrollado por Google, es un framework completo que facilita la creación de aplicaciones de una sola página mediante una arquitectura Modelo-Vista-Controlador (MVC). Por otro lado, React, creado por Meta, es una biblioteca flexible y centrada en componentes reutilizables para construir interfaces de usuario dinámicas. Ambas tecnologías son de código abierto y han transformado la manera en que los desarrolladores afrontan el diseño y la implementación de aplicaciones web, optimizando la experiencia del usuario y el rendimiento.
+
+- ¿Qué es Angular en programación?
+Angular es un framework de JavaScript de tipo open source, es decir de código abierto, desarrollado por Google. Se utiliza en la creación y programación de aplicaciones web de una sola página. 
+
+El framework es una creación de los ingenieros de Google, Misko Hevery y Adam Abrons. Google lanzó oficialmente la primera versión, AngularJS, en 2012, y la ha mantenido desde entonces.
+
+Antes del lanzamiento de AngularJS, había otras formas de crear páginas dinámicas. Sin embargo, no eran tan convenientes como este framework.
+
+AngularJS usa la arquitectura Modelo-Vista-Controlador (MVC), que se usa en el desarrollo de aplicaciones web.
+
+Este tipo de arquitectura consta de:
+
+Modelo: la estructura de datos que administra la información y recibe información del controlador
+Vista: la representación de la información
+Controlador: responde a la entrada e interactúa con el modelo
+En el contexto de AngularJS, el modelo es el framework, mientras que la vista es HTML y el control es JavaScript.
+
+Para hacerlo mas simple:
+
+AngularJS une JavaScript y HTML
+JavaScript acepta la entrada del usuario y la envía a AngularJS
+AngularJS usa la entrada para modificar HTML
+Con el framework que vincula JavaScript y HTML, el código entre ellos se sincroniza. Este mecanismo facilita el trabajo de los desarrolladores porque reduce la cantidad de código necesario para escribir.
+- Ventajas de Angular
+Componentes personalizados
+Los usuarios tienen total libertad de construir sus propios componentes que pueden empaquetar la funcionalidad junto con la lógica de renderizado en piezas reutilizables en el código
+
+Enlace de datos
+Una de las grandes ventajas es que permite a los usuarios mover datos sin esfuerzo desde el código JavaScript a la vista y reaccionar a los eventos del usuario sin tener que escribir ningún código manualmente.
+
+Inyección de dependencia
+Angular permite a los usuarios escribir servicios modulares e inyectarlos donde sea que se necesiten. Esto mejora la capacidad de prueba y la reutilización de los mismos servicios.
+
+Pruebas
+Las pruebas son herramientas de primera clase y Angular no es la excepción en esto, se ha creado desde cero teniendo en cuenta la capacidad de prueba. Este permite realizar pruebas a cada parte de su aplicación, lo cual es muy recomendable.
+
+Integral
+Angular es un framework completo y proporciona soluciones listas para usar para la comunicación del servidor, el enrutamiento dentro de su aplicación y más.
+
+Compatibilidad del navegador
+Angular es multiplataforma y compatible con muchos navegadores. Una aplicación angular normalmente se puede ejecutar en todos los navegadores (por ejemplo; Chrome, Firefox) y sistemas operativos, como Windows, macOS y Linux.
+
+- Limitaciones de Angular
+Curva de aprendizaje empinada
+Los componentes básicos de Angular que todos los usuarios deben conocer incluyen directivas, módulos, decoradores, componentes, servicios, inyección de dependencias, pipes y plantillas. Los temas más avanzados incluyen detección de cambios, zonas, compilación de AoT y Rx.js. Por ende, para los nuevos desarrolladores toma tiempo en aprender este nuevo Framework.
+
+Opciones de SEO limitadas
+Angular ofrece opciones limitadas que cumplan con las métricas SEO necesarias y poca accesibilidad para los rastreadores de motores de búsqueda.
+
+Migración
+Una de las razones por las que las empresas no utilizan Angular con frecuencia es la dificultad de trasladar el código heredado basado en js / jquery a una arquitectura de estilo angular. Además, cada nueva versión puede ser problemática de actualizar y varias de ellas no son compatibles con versiones anteriores. Por ende, al desarrollar una webapp con Angular casi siempre se prefiere dejarla en la versión que se desarrollo en vez de realizar una migración a una nueva versión.
+
+Complejo
+Un problema común en la comunidad Angular es la forma en como debe escribirse el Framework. También es bastante complejo en comparación con otras herramientas de front-end.
+
+- ¿Qué es React?
+React es una biblioteca de JavaScript desarrollada por Facebook que se utiliza para construir interfaces de usuario interactivas y eficientes. Se centra en la creación de interfaces de usuario declarativas, lo que significa que se describe cómo debería lucir la interfaz en un estado determinado y React se encarga de actualizar automáticamente la interfaz cuando los datos cambian.
+
+- Características clave de React:
+
+    1. Componentes: React organiza la interfaz de usuario en componentes reutilizables, que pueden ser de distinto tipo y tamaño. De esta forma, se facilita la modularidad del código, simplificando la construcción y el mantenimiento de las aplicaciones, ya que cada componente se puede desarrollar y probar de forma aislada antes de integrarlo en el desarrollo final.
+    2. Estados y Desarrollo Declarativo: React permite al desarrollador describir cómo debe verse la interfaz dependiendo del estado de la aplicación. De este modo, cuando un componente cambia de estado, React hace un seguimiento de esos cambios y actualiza la interfaz de usuario para que aparezca acorde al nuevo estado. Esto, además de simplificar la gestión del estado, implica que la interfaz siempre estará sincronizada y actualizada con los datos de la aplicación.
+    3. Virtual DOM: React aplica las modificaciones primero en una representación virtual del DOM, de forma que posteriormente solo se apliquen al DOM real los cambios necesarios. Así, se reduce la carga en el navegador y se optimiza el rendimiento.
+    4. JSX: React utiliza JSX (JavaScript XML), que permite escribir código que se asemeja al marcado HTML. Gracias a ello, la creación de componentes se simplifica y mejora su legibilidad.
+    5. Unidireccionalidad de datos: esto significa que los datos solo fluyen en una dirección a través de la aplicación. Esto facilita el seguimiento y el mantenimiento, con lo que se consigue un código más predecible y fácil de depurar.
+    6. Herramientas complementarias: React cuenta con numerosas opciones de herramientas y bibliotecas, de entre las que destacamos Redux, que facilitan y agilizan el desarrollo de plataformas en React.
+- ¿Por qué utilizar React?
+    1. Fácil de usar
+    Los desarrolladores con conocimientos de JavaScript pueden aprender a utilizar React en muy poco tiempo, ya que se basa en JavaScript plano y en un enfoque basado en componentes. Es posible empezar a desarrollar aplicaciones basadas en la web con React tras solo un par de días de estudio.
+    2. Admite componentes Java reutilizables
+    React te permite reutilizar componentes que han sido desarrollados en otras aplicaciones. Como React JS es de código abierto, es posible pre-construir componentes, lo que reduce el tiempo de desarrollo de aplicaciones web complejas.
+    3. Facilita la redacción de los componentes
+    Gracias a la integración de JSX, es más fácil escribir componentes de React: los usuarios pueden crear objetos de JavaScript combinados con tipografía y etiquetas HTML. JSX también simplifica la renderización de múltiples funciones, lo que mantiene el código sencillo sin reducir las capacidades de la aplicación.
+    4. Alto rendimiento
+    Como comentamos anteriormente, el virtual DOM permite a ReactJS actualizar el árbol del DOM de la forma más eficiente posible. Al almacenar el virtual DOM en la memoria, React elimina el exceso de re-renderización que puede perjudicar el rendimiento.
+    5. Compatible con SEO
+    React JS puede mejorar la optimización en los motores de búsqueda (SEO) de las aplicaciones web al aumentar su rendimiento. La implementación del DOM virtual es uno de los factores que influyen en una mayor velocidad de las páginas.
+- Conclusión
+Tanto Angular como React ofrecen soluciones robustas y escalables para construir aplicaciones web, pero sus diferencias los hacen adecuados para distintos tipos de proyectos. Angular destaca por su enfoque integral y herramientas listas para usar, ideales para proyectos grandes y estructurados. React, con su flexibilidad y un aprendizaje más accesible, es perfecto para interfaces dinámicas y proyectos que requieren componentes reutilizables. La elección entre ambos dependerá de factores como la complejidad del proyecto, el equipo de desarrollo y los objetivos a largo plazo.
+- Fuentes bibliograficas: 
+https://www.hiberus.com/crecemos-contigo/que-es-angular-y-para-que-sirve/
+https://docs.angular.lat/guide/architecture
+https://www.hostinger.mx/tutoriales/que-es-angular
+https://talently.tech/blog/que-es-angular/
+https://blog.hubspot.es/website/que-es-react
+https://kinsta.com/es/base-de-conocimiento/que-es-react-js/
+https://digital55.com/blog/desarrollo-react-ventajas-contratar-programador-react/
+https://www.hostinger.mx/tutoriales/que-es-react#%C2%BFPor_que_utilizar_React
