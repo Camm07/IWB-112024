@@ -1,0 +1,81 @@
+Investigación sobre Angular y React
+_________________________________________________________
+
+ANGULAR
+Angular es un framework de desarrollo web de código 
+abierto creado y mantenido por Google. Está diseñado 
+para facilitar la construcción de aplicaciones web 
+dinámicas, especialmente de una sola página 
+(SPA, por sus siglas en inglés), 
+utilizando una arquitectura basada en componentes. 
+Angular se distingue por ser un framework completo
+
+Tipo:
+Framework completo (full-stack)
+
+Lenguaje principal: 
+TypeScript (con soporte para JavaScript)
+
+Características principales:
+- Arquitectura basada en componentes
+- TypeScript
+- Inyección de dependencias
+- Routing y navegación
+- Herramientas integradas
+- Desarrollo de aplicaciones grandes
+
+Ventajas:
+
+1.- Estructura más estricta, lo que puede hacer más 
+fácil mantener el código en proyectos grandes.
+2.- Amplia documentación y comunidad activa.
+3.- Solución todo-en-uno 
+(no es necesario integrar varias bibliotecas externas).
+
+Desventajas:
+
+1.- Curva de aprendizaje más empinada debido 
+a su complejidad.
+2.- Puede ser más pesado comparado con React en 
+términos de tamaño de paquete, lo que afecta al 
+rendimiento en aplicaciones más pequeñas.
+_________________________________________________________
+
+REACT
+React es una biblioteca de JavaScript de código abierto 
+para construir interfaces de usuario, desarrollada por 
+Facebook (Meta). React se centra únicamente en la capa 
+de vista de una aplicación, lo que significa que es más 
+flexible y se puede integrar con otras bibliotecas o 
+frameworks según las necesidades del proyecto.
+
+Tipo: 
+Biblioteca para interfaces de usuario (UI)
+
+Lenguaje principal: 
+JavaScript (pero también soporta TypeScript)
+
+Características principales:
+- Basado en componentes
+- JSX (Extension de javaScrypt)
+- Virtual DOM
+- Unidireccionalidad de datos
+- Ecosistema flexible
+
+Ventajas:
+
+1.- Gran rendimiento gracias al Virtual DOM.
+2.- Flexibilidad para elegir las herramientas y 
+bibliotecas que mejor se adapten a las necesidades 
+del proyecto.
+3.- Amplia comunidad y ecosistema de herramientas y 
+librerías.
+4.- Relativamente fácil de aprender y usar, 
+especialmente para aquellos familiarizados con
+JavaScript.
+
+Desventajas:
+
+1.- No es un framework completo.
+2.- A veces se necesita configurar más cosas 
+desde cero en comparación con un framework como Angular.
